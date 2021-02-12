@@ -697,15 +697,25 @@ label.error{
   transition: none;
 }
 
+@font-face {
+  font-family: titlefont;
+  src: url("../fonts/LongCang-Regular.ttf");
+  /* src: url("../fonts/BluesticksDemoRegular.ttf"); */
+  /* src: url("../fonts/AuthoriaDemoRegular.ttf"); */
+}
+
+
 .navbar .brandtext{
   float: left;
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
-  font-family: monospace;
+  font-family: titlefont;
   font-size: xx-large;
   color: #302e2c;
-  margin-top: -1.1rem;
+  color:grey;
+  margin-top: -1.6rem;
+  margin-top: -2.456rem;
   margin-left: -1.5rem;
   text-decoration: none;
 }
@@ -738,6 +748,7 @@ a.brand:focus{
   margin-top: -3px;
   margin-right: 0.65rem;
   height: 2.356rem;
+  height: 1.6rem;
 }
 
 .brand-info{
@@ -1101,13 +1112,17 @@ a.brand:focus{
   display: inline-block;
   font-weight: 500;
   font-size: 1.142rem;
+  font-size: 2.942rem;
+  font-family: titlefont;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #de291e;
+  /* text-transform: uppercase; */
+  color: grey;
   margin-bottom: 1rem;
 }
 
-
+.section-subtitle .spantext{
+  color:#ff3333;
+}
 /* 3.1 Jumbotron */
 
 
