@@ -123,7 +123,8 @@ body{
   letter-spacing: 0.025em;
   line-height: 2.1428;
   color: #8d8d8d;
-  background: #272727;
+  background: #ffff;
+  /*background: #272727;*/
   -webkit-overflow-scrolling:touch;
 }
 
@@ -374,6 +375,7 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 textarea:focus{
   border-color: #de291e;
+  border-color: #df950b;
   outline: 0;
 }
 
@@ -681,7 +683,8 @@ label.error{
   width:100%;
   padding-top: 2.7rem;
   height: 7rem;
-  background-color: #272727;
+  background-color: #ffff;
+  /*background-color: #272727;*/
   margin:0;
   border-radius: 0;
 }
@@ -692,6 +695,23 @@ label.error{
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+}
+
+.navbar .brandtext{
+  float: left;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  font-family: monospace;
+  font-size: xx-large;
+  color: #302e2c;
+  margin-top: -1.1rem;
+  margin-left: -1.5rem;
+  text-decoration: none;
+}
+
+.navbar .spantext{
+  color: red;
 }
 
 
@@ -746,10 +766,13 @@ a.brand:focus{
 
 .navbar-toggle .icon-bar{
   background-color: #fff;
+  background-color: #323232;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+
 
 .navbar-toggle:hover .icon-bar{
   background-color:  #de291e;
