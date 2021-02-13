@@ -35,7 +35,6 @@ body{
   line-height: 2.1428;
   color: var(--textcolor);
   background: var(--bgcolor);
-  /*background: #272727;*/
   -webkit-overflow-scrolling:touch;
 }
 
@@ -910,7 +909,7 @@ a.brand:focus{
 }
 
 .menu-footer .social-list a{
-  color: #8d8d8d;
+  color: var(--textcolor);
   margin:0;
   margin-right:2.7rem;
 }
@@ -3557,7 +3556,7 @@ a.brand:focus{
 
 
 .footer{
-  color: var(--bgcolor);
+  color: var(--textcolor);
   line-height: 1.71;
 }
 
