@@ -84,11 +84,12 @@ body{
 
 h1,
 .h1{ 
+  font-family: "Lucida Console", "Courier New", monospace;
   font-weight: 700;
   font-size: 3.428rem;
   line-height: 1.2;
   font-weight: 600;
-  color: var(--bgcolor);
+  color: #151414;
   letter-spacing: -0.025em;
   margin:0.5em 0;
 }
@@ -708,7 +709,7 @@ a.brand:focus{
 .navbar-toggle:hover .icon-bar{
   background-color:  var(--colorscheme);
 }
-
+/*
 .navbar .social-list{
   float: right;
   margin-right: 10%;
@@ -734,7 +735,7 @@ a.brand:focus{
   color:var(--colorscheme);
   text-decoration: none;
 }
-
+*/
 .navbar-spacer{
   float: right;
   margin:-1rem 4.5rem 0;
@@ -3573,10 +3574,7 @@ a.brand:focus{
 -------------------------------------------------------------------------------*/
 
 
-.footer{
-  color: var(--textcolor);
-  line-height: 1.71;
-}
+
 
 .footer ul{
   list-style: none;
@@ -3593,7 +3591,22 @@ a.brand:focus{
   color:var(--colorscheme);
   text-decoration: none;
 }
-
+.footer .brandtext{
+  float: left;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  font-family: titlefont;
+  font-size: xx-large;
+  color:var(--textcolor);
+  margin-top: -1.6rem;
+  margin-top: -2.456rem;
+  margin-left: -1.5rem;
+  text-decoration: none;
+}
+.footer .spantext{
+  color: red;
+}
 .footer-flex{
   margin-top: -4rem;
   display: -webkit-box;
