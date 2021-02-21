@@ -642,7 +642,6 @@ a.brand:focus {
 .brand img {
     display: inline-block;
     vertical-align: top;
-    margin-top: -3px;
     margin-right: 0.65rem;
     height: 2.356rem;
     height: 1.6rem;
@@ -663,6 +662,12 @@ a.brand:focus {
     font-size: 0.857rem;
     font-weight: 300;
     margin-top: -0.3rem;
+}
+
+@media (min-width: 992px) {
+    .brand img {
+        margin-top: -.55rem;
+    }
 }
 
 .navbar-toggle {
