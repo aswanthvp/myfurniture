@@ -15,6 +15,8 @@
     --bgcolor: #ffff;
     --textcolor: grey;
     --colorscheme: grey;
+    --vibrantcolor: #854933
+    /* color: #854933; */
 }
 
 html {
@@ -1049,6 +1051,10 @@ a.brand:focus {
     -webkit-transform: none;
     -o-transform: none;
     transform: none;
+}
+
+.slider-title {
+    color: var(--vibrantcolor);
 }
 
 .slider-prev,
