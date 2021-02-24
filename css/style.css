@@ -610,7 +610,7 @@ label.error {
 }
 
 .flex-item .brandtext {
-    float: left;
+    /* float: left; */
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
@@ -3498,11 +3498,11 @@ a.brand:focus {
 }
 
 .footer-flex {
-    margin-top: -4rem;
+    margin-top: -8rem;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    /* display: flex; */
     -webkit-justify-content: space-between;
     -ms-flex-pack: space-between;
     justify-content: space-between;
@@ -3512,13 +3512,17 @@ a.brand:focus {
 }
 
 .footer-flex .flex-item {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     /* -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%; */
     /* flex: 0 0 100%; */
 }
 
 .footer-flex .flex-item a {
+    color: var(--textcolor);
+}
+
+.footer-flex .flex-item h4 {
     color: var(--textcolor);
 }
 
