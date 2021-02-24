@@ -15,7 +15,7 @@
     --bgcolor: #ffff;
     --textcolor: grey;
     --colorscheme: grey;
-    --vibrantcolor: #854933
+    --vibrantcolor: white
     /* color: #854933; */
 }
 
@@ -2868,6 +2868,15 @@ a.brand:focus {
     font-weight: 400;
     line-height: 1.6;
     margin-bottom: 4.8rem;
+    margin-top: 0;
+    color: var(--textcolor)
+}
+
+.entry-description-title {
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 1.8rem;
     margin-top: 0;
     color: var(--textcolor)
 }
