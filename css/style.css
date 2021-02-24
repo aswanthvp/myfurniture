@@ -561,6 +561,18 @@ label.error {
     overflow: hidden;
 }
 
+.catalogue {
+    float: left;
+    margin: 1rem;
+    background-color: currentcolor;
+    border-radius: 3px;
+    padding: .5rem;
+}
+
+.catalogue a {
+    color: honeydew;
+}
+
 
 /*-------------------------------------------------------------------------------
   2. Navbar
