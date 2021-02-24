@@ -605,6 +605,7 @@ label.error {
     margin-top: -1.6rem;
     margin-top: -2.456rem;
     margin-left: -1.5rem;
+    margin-left: -0.5rem;
     text-decoration: none;
 }
 
@@ -3479,7 +3480,7 @@ a.brand:focus {
 }
 
 .footer .brandtext {
-    float: left;
+    /* float: left; */
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
@@ -3512,9 +3513,9 @@ a.brand:focus {
 
 .footer-flex .flex-item {
     margin-top: 4rem;
-    -webkit-flex: 0 0 100%;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
+    /* -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%; */
+    /* flex: 0 0 100%; */
 }
 
 .footer-flex .flex-item a {
