@@ -567,6 +567,8 @@ label.error {
     background-color: currentcolor;
     border-radius: 3px;
     padding: .5rem;
+    min-width: 6.5rem;
+    text-align-last: center;
 }
 
 .catalogue a {
